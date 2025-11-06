@@ -34,7 +34,7 @@ npm start
 
 ## Environment Variables
 
-Check the  `.env.example` file.
+Check the `.env.example` file.
 
 ## Project Structure
 
