@@ -17,7 +17,7 @@ export default function PrivacyPolicyPage() {
         {/* Hero Section */}
         <section className='py-16 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-green-50 via-white to-gray-50'>
           <div className='container mx-auto max-w-4xl text-center'>
-            <div className='inline-flex items-center gap-2 px-4 py-2 bg-[#28A265]/10 text-[#28A265] rounded-full text-sm font-semibold mb-6'>
+            <div className='inline-flex items-center gap-2 px-4 py-2 bg-[#059669]/10 text-[#059669] rounded-full text-sm font-semibold mb-6'>
               <Shield className='w-4 h-4' />
               <span>Your Privacy Matters</span>
             </div>
@@ -46,8 +46,8 @@ export default function PrivacyPolicyPage() {
               {/* Information We Collect */}
               <div className='mb-12'>
                 <div className='flex items-center gap-3 mb-4'>
-                  <div className='p-3 bg-[#28A265]/10 rounded-xl'>
-                    <FileText className='w-6 h-6 text-[#28A265]' />
+                  <div className='p-3 bg-[#059669]/10 rounded-xl'>
+                    <FileText className='w-6 h-6 text-[#059669]' />
                   </div>
                   <h2 className='text-2xl font-bold text-gray-900 m-0'>
                     Information We Collect
@@ -63,19 +63,19 @@ export default function PrivacyPolicyPage() {
                 </p>
                 <ul className='space-y-2 text-gray-600'>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>Contact us through our website or email</span>
                   </li>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>Subscribe to our newsletter or updates</span>
                   </li>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>Use our products or services</span>
                   </li>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>Participate in surveys or promotions</span>
                   </li>
                 </ul>
@@ -94,8 +94,8 @@ export default function PrivacyPolicyPage() {
               {/* How We Use Your Information */}
               <div className='mb-12'>
                 <div className='flex items-center gap-3 mb-4'>
-                  <div className='p-3 bg-[#28A265]/10 rounded-xl'>
-                    <Eye className='w-6 h-6 text-[#28A265]' />
+                  <div className='p-3 bg-[#059669]/10 rounded-xl'>
+                    <Eye className='w-6 h-6 text-[#059669]' />
                   </div>
                   <h2 className='text-2xl font-bold text-gray-900 m-0'>
                     How We Use Your Information
@@ -107,33 +107,33 @@ export default function PrivacyPolicyPage() {
                 </p>
                 <ul className='space-y-2 text-gray-600'>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>Provide, operate, and maintain our services</span>
                   </li>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>Improve, personalize, and expand our services</span>
                   </li>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>
                       Communicate with you about products, services, and updates
                     </span>
                   </li>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>
                       Process your transactions and send related information
                     </span>
                   </li>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>
                       Respond to your inquiries and provide customer support
                     </span>
                   </li>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>Analyze usage patterns and optimize our website</span>
                   </li>
                 </ul>
@@ -142,8 +142,8 @@ export default function PrivacyPolicyPage() {
               {/* Data Security */}
               <div className='mb-12'>
                 <div className='flex items-center gap-3 mb-4'>
-                  <div className='p-3 bg-[#28A265]/10 rounded-xl'>
-                    <Lock className='w-6 h-6 text-[#28A265]' />
+                  <div className='p-3 bg-[#059669]/10 rounded-xl'>
+                    <Lock className='w-6 h-6 text-[#059669]' />
                   </div>
                   <h2 className='text-2xl font-bold text-gray-900 m-0'>
                     Data Security
@@ -163,8 +163,8 @@ export default function PrivacyPolicyPage() {
               {/* Data Sharing */}
               <div className='mb-12'>
                 <div className='flex items-center gap-3 mb-4'>
-                  <div className='p-3 bg-[#28A265]/10 rounded-xl'>
-                    <Users className='w-6 h-6 text-[#28A265]' />
+                  <div className='p-3 bg-[#059669]/10 rounded-xl'>
+                    <Users className='w-6 h-6 text-[#059669]' />
                   </div>
                   <h2 className='text-2xl font-bold text-gray-900 m-0'>
                     Information Sharing
@@ -178,23 +178,23 @@ export default function PrivacyPolicyPage() {
                 </p>
                 <ul className='space-y-2 text-gray-600'>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>With your consent or at your direction</span>
                   </li>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>
                       With service providers who assist in our operations
                     </span>
                   </li>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>
                       To comply with legal obligations or protect our rights
                     </span>
                   </li>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>
                       In connection with a business transfer or merger
                     </span>
@@ -212,27 +212,27 @@ export default function PrivacyPolicyPage() {
                 </p>
                 <ul className='space-y-2 text-gray-600'>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>
                       Access and receive a copy of your personal information
                     </span>
                   </li>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>Request correction of inaccurate information</span>
                   </li>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>Request deletion of your personal information</span>
                   </li>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>
                       Object to or restrict processing of your information
                     </span>
                   </li>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>Withdraw consent at any time</span>
                   </li>
                 </ul>
@@ -282,7 +282,7 @@ export default function PrivacyPolicyPage() {
               <div className='rounded-2xl p-8 border border-gray-200'>
                 <div className='flex items-center gap-3 mb-4'>
                   <div className='p-3 bg-white rounded-xl shadow-sm'>
-                    <Mail className='w-6 h-6 text-[#28A265]' />
+                    <Mail className='w-6 h-6 text-[#059669]' />
                   </div>
                   <h2 className='text-2xl font-bold text-gray-900 m-0'>
                     Contact Us

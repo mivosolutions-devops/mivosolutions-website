@@ -10,21 +10,21 @@ export default function Hero() {
       <div className='absolute inset-0 bg-linear-to-b from-green-50 via-white to-gray-50 -z-10' />
 
       {/* Decorative elements */}
-      <div className='absolute top-40 right-10 w-72 h-72 bg-[#28A265]/10 rounded-full blur-3xl -z-10' />
+      <div className='absolute top-40 right-10 w-72 h-72 bg-[#059669]/10 rounded-full blur-3xl -z-10' />
       <div className='absolute bottom-20 left-10 w-96 h-96 bg-blue-100/50 rounded-full blur-3xl -z-10' />
 
       <div className='container mx-auto max-w-7xl'>
         <div className='grid lg:grid-cols-2 gap-12 items-center'>
           {/* Left Column - Text Content */}
           <div className='space-y-8 opacity-0 animate-[fadeInLeft_1s_ease-out_forwards]'>
-            <div className='inline-flex items-center gap-2 px-4 py-2 bg-[#28A265]/10 text-[#28A265] rounded-full text-sm font-semibold'>
+            <div className='inline-flex items-center gap-2 px-4 py-2 bg-[#059669]/10 text-[#059669] rounded-full text-sm font-semibold'>
               <Sparkles className='w-4 h-4' />
               <span>Innovative Software Solutions</span>
             </div>
 
             <h1 className='text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight'>
               Building The Future With{" "}
-              <span className='text-transparent bg-clip-text bg-linear-to-r from-[#28A265] to-[#1f7d4d]'>
+              <span className='text-transparent bg-clip-text bg-linear-to-r from-[#059669] to-[#1f7d4d]'>
                 Innovative
               </span>
               <br />
@@ -62,17 +62,17 @@ export default function Hero() {
                 alt='Team collaboration'
                 className='w-full h-full object-cover'
               />
-              <div className='absolute inset-0 bg-linear-to-tr from-[#28A265]/20 to-transparent' />
+              <div className='absolute inset-0 bg-linear-to-tr from-[#059669]/20 to-transparent' />
             </div>
 
             {/* Floating stats cards */}
             <div className='absolute -bottom-6 -left-6 bg-white rounded-xl shadow-xl p-6 opacity-0 animate-[fadeInUp_1s_ease-out_0.7s_forwards]'>
-              <div className='text-3xl font-bold text-[#28A265]'>3+</div>
+              <div className='text-3xl font-bold text-[#059669]'>3+</div>
               <div className='text-sm text-gray-600'>Years Experience</div>
             </div>
 
             <div className='absolute -top-6 -right-6 bg-white rounded-xl shadow-xl p-6 opacity-0 animate-[fadeInDown_1s_ease-out_0.5s_forwards]'>
-              <div className='text-3xl font-bold text-[#28A265]'>2+</div>
+              <div className='text-3xl font-bold text-[#059669]'>2+</div>
               <div className='text-sm text-gray-600'>Products</div>
             </div>
           </div>

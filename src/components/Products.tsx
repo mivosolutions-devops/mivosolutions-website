@@ -50,7 +50,7 @@ export default function Products() {
     >
       <div className='container mx-auto max-w-7xl'>
         <div className='text-center mb-16 animate-in fade-in slide-in-from-bottom duration-700'>
-          <p className='text-[#28A265] font-semibold text-sm uppercase tracking-wider mb-4'>
+          <p className='text-[#059669] font-semibold text-sm uppercase tracking-wider mb-4'>
             OUR PRODUCTS
           </p>
           <h2 className='text-4xl md:text-5xl font-bold text-gray-900 mb-4'>
@@ -95,7 +95,7 @@ export default function Products() {
                   <div
                     className={`absolute bottom-4 left-4 p-3 bg-white rounded-xl shadow-lg`}
                   >
-                    <Icon className='w-6 h-6 text-[#28A265]' />
+                    <Icon className='w-6 h-6 text-[#059669]' />
                   </div>
                 </div>
 
@@ -104,7 +104,7 @@ export default function Products() {
                   <h3 className='text-2xl font-bold text-gray-900 mb-2'>
                     {product.name}
                   </h3>
-                  <h4 className='text-lg font-semibold text-[#28A265] mb-3'>
+                  <h4 className='text-lg font-semibold text-[#059669] mb-3'>
                     {product.title}
                   </h4>
                   <p className='text-gray-600 mb-4 leading-relaxed'>
@@ -122,7 +122,7 @@ export default function Products() {
                             key={idx}
                             className='flex items-start gap-2 text-sm text-gray-700'
                           >
-                            <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-1.5 shrink-0' />
+                            <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-1.5 shrink-0' />
                             <span>{feature}</span>
                           </div>
                         ))}

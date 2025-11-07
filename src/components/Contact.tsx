@@ -76,7 +76,7 @@ export default function Contact() {
 
       <div className='container mx-auto max-w-7xl'>
         <div className='text-center mb-16 animate-in fade-in slide-in-from-bottom duration-700'>
-          <p className='text-[#28A265] font-semibold text-sm uppercase tracking-wider mb-4'>
+          <p className='text-[#059669] font-semibold text-sm uppercase tracking-wider mb-4'>
             CONTACT US
           </p>
           <h2 className='text-4xl md:text-5xl font-bold text-gray-900 mb-4'>
@@ -98,8 +98,8 @@ export default function Contact() {
 
               <div className='space-y-6'>
                 <div className='flex items-start space-x-4'>
-                  <div className='p-3 bg-[#28A265]/10 rounded-xl'>
-                    <Phone className='w-6 h-6 text-[#28A265]' />
+                  <div className='p-3 bg-[#059669]/10 rounded-xl'>
+                    <Phone className='w-6 h-6 text-[#059669]' />
                   </div>
                   <div>
                     <h4 className='text-lg font-semibold text-gray-900 mb-1'>
@@ -107,7 +107,7 @@ export default function Contact() {
                     </h4>
                     <a
                       href='tel:+250790603658'
-                      className='text-[#28A265] hover:text-[#1f7d4d] transition-colors'
+                      className='text-[#059669] hover:text-[#1f7d4d] transition-colors'
                     >
                       +250 790 603 658
                     </a>
@@ -115,8 +115,8 @@ export default function Contact() {
                 </div>
 
                 <div className='flex items-start space-x-4'>
-                  <div className='p-3 bg-[#28A265]/10 rounded-xl'>
-                    <Mail className='w-6 h-6 text-[#28A265]' />
+                  <div className='p-3 bg-[#059669]/10 rounded-xl'>
+                    <Mail className='w-6 h-6 text-[#059669]' />
                   </div>
                   <div>
                     <h4 className='text-lg font-semibold text-gray-900 mb-1'>
@@ -124,7 +124,7 @@ export default function Contact() {
                     </h4>
                     <a
                       href='mailto:contact@mivosolutions.com'
-                      className='text-[#28A265] hover:text-[#1f7d4d] transition-colors break-all'
+                      className='text-[#059669] hover:text-[#1f7d4d] transition-colors break-all'
                     >
                       contact@mivosolutions.com
                     </a>
@@ -132,8 +132,8 @@ export default function Contact() {
                 </div>
 
                 <div className='flex items-start space-x-4'>
-                  <div className='p-3 bg-[#28A265]/10 rounded-xl'>
-                    <Globe className='w-6 h-6 text-[#28A265]' />
+                  <div className='p-3 bg-[#059669]/10 rounded-xl'>
+                    <Globe className='w-6 h-6 text-[#059669]' />
                   </div>
                   <div>
                     <h4 className='text-lg font-semibold text-gray-900 mb-1'>
@@ -143,7 +143,7 @@ export default function Contact() {
                       href='https://www.mivosolutions.com'
                       target='_blank'
                       rel='noopener noreferrer'
-                      className='text-[#28A265] hover:text-[#1f7d4d] transition-colors'
+                      className='text-[#059669] hover:text-[#1f7d4d] transition-colors'
                     >
                       www.mivosolutions.com
                     </a>

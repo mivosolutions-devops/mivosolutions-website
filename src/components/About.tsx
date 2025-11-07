@@ -50,7 +50,7 @@ export default function About() {
 
       <div className='container mx-auto max-w-7xl'>
         <div className='text-center mb-16 animate-in fade-in slide-in-from-bottom duration-700'>
-          <p className='text-[#28A265] font-semibold text-sm uppercase tracking-wider mb-4'>
+          <p className='text-[#059669] font-semibold text-sm uppercase tracking-wider mb-4'>
             ABOUT MIVO SOLUTIONS LTD
           </p>
           <h2 className='text-4xl md:text-5xl font-bold text-gray-900 mb-4'>
@@ -94,11 +94,11 @@ export default function About() {
               return (
                 <div
                   key={index}
-                  className='group p-8 rounded-2xl bg-linear-to-br from-gray-50 to-white border border-gray-200 hover:border-[#28A265] hover:shadow-xl transition-all duration-300 animate-in fade-in slide-in-from-bottom'
+                  className='group p-8 rounded-2xl bg-linear-to-br from-gray-50 to-white border border-gray-200 hover:border-[#059669] hover:shadow-xl transition-all duration-300 animate-in fade-in slide-in-from-bottom'
                   style={{ animationDelay: `${index * 100}ms` }}
                 >
-                  <div className='inline-flex p-3 bg-[#28A265]/10 rounded-xl mb-4 group-hover:scale-110 transition-transform'>
-                    <Icon className='w-7 h-7 text-[#28A265]' />
+                  <div className='inline-flex p-3 bg-[#059669]/10 rounded-xl mb-4 group-hover:scale-110 transition-transform'>
+                    <Icon className='w-7 h-7 text-[#059669]' />
                   </div>
                   <h4 className='text-xl font-bold text-gray-900 mb-3'>
                     {value.title}
@@ -118,7 +118,7 @@ export default function About() {
             return (
               <div
                 key={index}
-                className='relative group p-10 bg-linear-to-br from-[#28A265] to-[#1f7d4d] rounded-2xl text-white overflow-hidden hover:shadow-2xl transition-all duration-300 animate-in fade-in slide-in-from-bottom'
+                className='relative group p-10 bg-linear-to-br from-[#059669] to-[#1f7d4d] rounded-2xl text-white overflow-hidden hover:shadow-2xl transition-all duration-300 animate-in fade-in slide-in-from-bottom'
                 style={{ animationDelay: `${(index + 4) * 100}ms` }}
               >
                 <div className='absolute top-0 right-0 opacity-10'>

@@ -45,7 +45,7 @@ export default function Header() {
               className='h-4.5 w-auto'
             />
             <div className='text-2xl font-bold'>
-              <span className='text-[#28A265]'> Solutions</span>
+              <span className='text-[#059669]'> Solutions</span>
             </div>
           </Link>
 
@@ -59,8 +59,8 @@ export default function Header() {
                   href={item.href}
                   className={`px-4 py-2 font-medium transition-colors rounded-lg ${
                     isActive
-                      ? "text-[#28A265]"
-                      : "text-gray-700 hover:text-[#28A265]"
+                      ? "text-[#059669]"
+                      : "text-gray-700 hover:text-[#059669]"
                   }`}
                 >
                   {item.name}
@@ -95,8 +95,8 @@ export default function Header() {
                     href={item.href}
                     className={`px-4 py-3 rounded-lg font-medium transition-colors ${
                       isActive
-                        ? "text-[#28A265] bg-green-50"
-                        : "text-gray-700 hover:text-[#28A265]"
+                        ? "text-[#059669] bg-green-50"
+                        : "text-gray-700 hover:text-[#059669]"
                     }`}
                     onClick={() => setIsMenuOpen(false)}
                   >

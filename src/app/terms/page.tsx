@@ -24,7 +24,7 @@ export default function TermsPage() {
         {/* Hero Section */}
         <section className='py-16 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-green-50 via-white to-gray-50'>
           <div className='container mx-auto max-w-4xl text-center'>
-            <div className='inline-flex items-center gap-2 px-4 py-2 bg-[#28A265]/10 text-[#28A265] rounded-full text-sm font-semibold mb-6'>
+            <div className='inline-flex items-center gap-2 px-4 py-2 bg-[#059669]/10 text-[#059669] rounded-full text-sm font-semibold mb-6'>
               <Scale className='w-4 h-4' />
               <span>Legal Terms</span>
             </div>
@@ -52,8 +52,8 @@ export default function TermsPage() {
               {/* Acceptance of Terms */}
               <div className='mb-12'>
                 <div className='flex items-center gap-3 mb-4'>
-                  <div className='p-3 bg-[#28A265]/10 rounded-xl'>
-                    <CheckCircle className='w-6 h-6 text-[#28A265]' />
+                  <div className='p-3 bg-[#059669]/10 rounded-xl'>
+                    <CheckCircle className='w-6 h-6 text-[#059669]' />
                   </div>
                   <h2 className='text-2xl font-bold text-gray-900 m-0'>
                     Acceptance of Terms
@@ -71,8 +71,8 @@ export default function TermsPage() {
               {/* Services */}
               <div className='mb-12'>
                 <div className='flex items-center gap-3 mb-4'>
-                  <div className='p-3 bg-[#28A265]/10 rounded-xl'>
-                    <FileText className='w-6 h-6 text-[#28A265]' />
+                  <div className='p-3 bg-[#059669]/10 rounded-xl'>
+                    <FileText className='w-6 h-6 text-[#059669]' />
                   </div>
                   <h2 className='text-2xl font-bold text-gray-900 m-0'>
                     Our Services
@@ -85,23 +85,23 @@ export default function TermsPage() {
                 </p>
                 <ul className='space-y-2 text-gray-600'>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>Mobile application development</span>
                   </li>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>Web application development</span>
                   </li>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>System integration and deployment</span>
                   </li>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>Information security services</span>
                   </li>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>Custom software solutions</span>
                   </li>
                 </ul>
@@ -118,27 +118,27 @@ export default function TermsPage() {
                 </p>
                 <ul className='space-y-2 text-gray-600'>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>Provide accurate and complete information</span>
                   </li>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>
                       Maintain the security of your account credentials
                     </span>
                   </li>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>
                       Use our services in compliance with applicable laws
                     </span>
                   </li>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>Not misuse or attempt to disrupt our services</span>
                   </li>
                   <li className='flex items-start gap-2'>
-                    <div className='w-1.5 h-1.5 bg-[#28A265] rounded-full mt-2 shrink-0' />
+                    <div className='w-1.5 h-1.5 bg-[#059669] rounded-full mt-2 shrink-0' />
                     <span>Respect intellectual property rights</span>
                   </li>
                 </ul>
@@ -293,7 +293,7 @@ export default function TermsPage() {
               <div className='rounded-2xl p-8 border border-gray-200'>
                 <div className='flex items-center gap-3 mb-4'>
                   <div className='p-3 bg-white rounded-xl shadow-sm'>
-                    <Mail className='w-6 h-6 text-[#28A265]' />
+                    <Mail className='w-6 h-6 text-[#059669]' />
                   </div>
                   <h2 className='text-2xl font-bold text-gray-900 m-0'>
                     Contact Us

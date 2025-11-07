@@ -15,8 +15,8 @@ export default function Footer() {
     <footer className='relative bg-linear-to-br from-gray-900 via-gray-900 to-black text-white overflow-hidden'>
       {/* Decorative background */}
       <div className='absolute inset-0 opacity-5'>
-        <div className='absolute top-0 left-1/4 w-96 h-96 bg-[#28A265] rounded-full blur-3xl' />
-        <div className='absolute bottom-0 right-1/4 w-96 h-96 bg-[#28A265] rounded-full blur-3xl' />
+        <div className='absolute top-0 left-1/4 w-96 h-96 bg-[#059669] rounded-full blur-3xl' />
+        <div className='absolute bottom-0 right-1/4 w-96 h-96 bg-[#059669] rounded-full blur-3xl' />
       </div>
 
       <div className='relative container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16'>
@@ -33,7 +33,7 @@ export default function Footer() {
                 className='h-5 w-auto'
               />
               <h3 className='text-2xl font-bold'>
-                <span className='text-[#28A265]'>Solutions</span>
+                <span className='text-[#059669]'>Solutions</span>
               </h3>
             </div>
 
@@ -48,7 +48,7 @@ export default function Footer() {
                 href='https://instagram.com/mivosolutions'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='group relative p-3 bg-gray-800/50 backdrop-blur-sm rounded-xl hover:bg-[#28A265] transition-all duration-300 border border-gray-800 hover:border-[#28A265]'
+                className='group relative p-3 bg-gray-800/50 backdrop-blur-sm rounded-xl hover:bg-[#059669] transition-all duration-300 border border-gray-800 hover:border-[#059669]'
                 aria-label='Instagram'
               >
                 <Instagram className='w-5 h-5' />
@@ -57,7 +57,7 @@ export default function Footer() {
                 href='https://x.com/mivosolutions'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='group relative p-3 bg-gray-800/50 backdrop-blur-sm rounded-xl hover:bg-[#28A265] transition-all duration-300 border border-gray-800 hover:border-[#28A265]'
+                className='group relative p-3 bg-gray-800/50 backdrop-blur-sm rounded-xl hover:bg-[#059669] transition-all duration-300 border border-gray-800 hover:border-[#059669]'
                 aria-label='X (Twitter)'
               >
                 <Twitter className='w-5 h-5' />
@@ -66,7 +66,7 @@ export default function Footer() {
                 href='https://linkedin.com/company/mivosolutions'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='group relative p-3 bg-gray-800/50 backdrop-blur-sm rounded-xl hover:bg-[#28A265] transition-all duration-300 border border-gray-800 hover:border-[#28A265]'
+                className='group relative p-3 bg-gray-800/50 backdrop-blur-sm rounded-xl hover:bg-[#059669] transition-all duration-300 border border-gray-800 hover:border-[#059669]'
                 aria-label='LinkedIn'
               >
                 <Linkedin className='w-5 h-5' />
@@ -83,27 +83,27 @@ export default function Footer() {
               <li>
                 <Link
                   href='/about'
-                  className='text-gray-400 hover:text-[#28A265] transition-colors inline-flex items-center group'
+                  className='text-gray-400 hover:text-[#059669] transition-colors inline-flex items-center group'
                 >
-                  <span className='w-1.5 h-1.5 bg-[#28A265] rounded-full mr-2 opacity-100 transition-opacity' />
+                  <span className='w-1.5 h-1.5 bg-[#059669] rounded-full mr-2 opacity-100 transition-opacity' />
                   About Us
                 </Link>
               </li>
               <li>
                 <Link
                   href='/products'
-                  className='text-gray-400 hover:text-[#28A265] transition-colors inline-flex items-center group'
+                  className='text-gray-400 hover:text-[#059669] transition-colors inline-flex items-center group'
                 >
-                  <span className='w-1.5 h-1.5 bg-[#28A265] rounded-full mr-2 opacity-100 transition-opacity' />
+                  <span className='w-1.5 h-1.5 bg-[#059669] rounded-full mr-2 opacity-100 transition-opacity' />
                   Our Products
                 </Link>
               </li>
               <li>
                 <Link
                   href='/contact'
-                  className='text-gray-400 hover:text-[#28A265] transition-colors inline-flex items-center group'
+                  className='text-gray-400 hover:text-[#059669] transition-colors inline-flex items-center group'
                 >
-                  <span className='w-1.5 h-1.5 bg-[#28A265] rounded-full mr-2 opacity-100 transition-opacity' />
+                  <span className='w-1.5 h-1.5 bg-[#059669] rounded-full mr-2 opacity-100 transition-opacity' />
                   Contact Us
                 </Link>
               </li>
@@ -119,7 +119,7 @@ export default function Footer() {
               <li>
                 <a
                   href='tel:+250790603658'
-                  className='text-gray-400 hover:text-[#28A265] transition-colors flex items-start gap-3 group'
+                  className='text-gray-400 hover:text-[#059669] transition-colors flex items-start gap-3 group'
                 >
                   <Phone className='w-5 h-5 mt-0.5 shrink-0 group-hover:scale-110 transition-transform' />
                   <span>+250 790 603 658</span>
@@ -128,7 +128,7 @@ export default function Footer() {
               <li>
                 <a
                   href='mailto:contact@mivosolutions.com'
-                  className='text-gray-400 hover:text-[#28A265] transition-colors flex items-start gap-3 group'
+                  className='text-gray-400 hover:text-[#059669] transition-colors flex items-start gap-3 group'
                 >
                   <Mail className='w-5 h-5 mt-0.5 shrink-0 group-hover:scale-110 transition-transform' />
                   <span className='break-all'>contact@mivosolutions.com</span>
@@ -139,7 +139,7 @@ export default function Footer() {
                   href='https://www.mivosolutions.com'
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='text-gray-400 hover:text-[#28A265] transition-colors flex items-start gap-3 group'
+                  className='text-gray-400 hover:text-[#059669] transition-colors flex items-start gap-3 group'
                 >
                   <Globe className='w-5 h-5 mt-0.5 shrink-0 group-hover:scale-110 transition-transform' />
                   <span>www.mivosolutions.com</span>
@@ -147,7 +147,7 @@ export default function Footer() {
               </li>
               <li>
                 <div className='text-gray-400 flex items-start gap-3'>
-                  <MapPin className='w-5 h-5 mt-0.5 shrink-0 text-[#28A265]' />
+                  <MapPin className='w-5 h-5 mt-0.5 shrink-0 text-[#059669]' />
                   <span>Kigali, Rwanda</span>
                 </div>
               </li>
@@ -165,13 +165,13 @@ export default function Footer() {
             <div className='flex gap-6 text-sm'>
               <Link
                 href='/privacy-policy'
-                className='text-gray-500 hover:text-[#28A265] transition-colors'
+                className='text-gray-500 hover:text-[#059669] transition-colors'
               >
                 Privacy Policy
               </Link>
               <Link
                 href='/terms'
-                className='text-gray-500 hover:text-[#28A265] transition-colors'
+                className='text-gray-500 hover:text-[#059669] transition-colors'
               >
                 Terms of Service
               </Link>

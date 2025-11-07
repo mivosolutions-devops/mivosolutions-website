@@ -41,7 +41,7 @@ export async function POST(request: Request) {
       subject: `New Message from ${name}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
-          <h2 style="color: #28A265;">New Contact Form Submission</h2>
+          <h2 style="color: #059669;">New Contact Form Submission</h2>
           <div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px; margin: 20px 0;">
             <p><strong>Name:</strong> ${name}</p>
             <p><strong>Email:</strong> ${email}</p>
@@ -65,7 +65,7 @@ export async function POST(request: Request) {
       subject: "Thank you for contacting Mivo Solutions",
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
-          <div style="background: linear-gradient(135deg, #28A265 0%, #1f7d4d 100%); padding: 30px; text-align: center; border-radius: 8px 8px 0 0;">
+          <div style="background: linear-gradient(135deg, #059669 0%, #1f7d4d 100%); padding: 30px; text-align: center; border-radius: 8px 8px 0 0;">
             <h1 style="color: white; margin: 0;">Mivo Solutions</h1>
           </div>
           
@@ -77,7 +77,7 @@ export async function POST(request: Request) {
               Our team typically responds within 24-48 hours.
             </p>
             
-            <div style="background-color: white; padding: 20px; border-left: 4px solid #28A265; margin: 20px 0;">
+            <div style="background-color: white; padding: 20px; border-left: 4px solid #059669; margin: 20px 0;">
               <p style="margin: 0; color: #666;"><strong>Your message:</strong></p>
               <p style="color: #333; margin: 10px 0 0 0;">${message}</p>
             </div>
@@ -88,7 +88,7 @@ export async function POST(request: Request) {
             
             <div style="margin-top: 30px; text-align: center;">
               <p style="color: #666;">Best regards,</p>
-              <p style="color: #28A265; font-weight: bold; font-size: 18px;">Mivo Solutions Team</p>
+              <p style="color: #059669; font-weight: bold; font-size: 18px;">Mivo Solutions Team</p>
             </div>
           </div>
           
