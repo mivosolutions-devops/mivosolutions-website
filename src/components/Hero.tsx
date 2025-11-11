@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import { ArrowRight, Sparkles } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function Hero() {
@@ -17,11 +17,6 @@ export default function Hero() {
         <div className='grid lg:grid-cols-2 gap-12 items-center'>
           {/* Left Column - Text Content */}
           <div className='space-y-8 opacity-0 animate-[fadeInLeft_1s_ease-out_forwards]'>
-            <div className='inline-flex items-center gap-2 px-4 py-2 bg-[#059669]/10 text-[#059669] rounded-full text-sm font-semibold'>
-              <Sparkles className='w-4 h-4' />
-              <span>Innovative Software Solutions</span>
-            </div>
-
             <h1 className='text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight'>
               Building The Future With{" "}
               <span className='text-transparent bg-clip-text bg-linear-to-r from-[#059669] to-[#1f7d4d]'>
